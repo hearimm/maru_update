@@ -1,0 +1,33 @@
+{
+  "name": "maru_update_nodejs",
+  "version": "1.0.0",
+  "description": "marumaru manga update alert to telegram bot api",
+  "main": "lib/index",
+  "types": "lib/index",
+  "dependencies": {
+    "@types/mongodb": "^2.2.14",
+    "@types/node-telegram-bot-api": "^0.28.1",
+    "async": "^2.5.0",
+    "cheerio": "latest",
+    "express": "latest",
+    "mongoose": "^4.12.3",
+    "node-telegram-bot-api": "^0.28.0",
+    "request": "latest"
+  },
+  "devDependencies": {
+    "@types/mongodb": "^2.2.14",
+    "@types/mongoose": "^4.7.24",
+    "@types/node": "^8.0.45",
+    "nodemon": "^1.12.1",
+    "ts-node": "^3.3.0",
+    "typescript": "^2.5.3",
+    "typestyle": "^1.4.3"
+  },
+  "scripts": {
+    "start": "npm run build:live",
+    "build:live": "nodemon --exec ./node_modules/.bin/ts-node -- ./index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hearimm",
+  "license": "ISC"
+}

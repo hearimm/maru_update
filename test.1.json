@@ -1,0 +1,42 @@
+{
+    "manga": [
+        {
+            "title": "원펀맨",
+            "ep": "1",
+            "url": "http://naver.com",
+            "date": "20171015 11:01"
+        },
+        {
+            "title": "히비키",
+            "ep": "1",
+            "url": "http://daum.com",
+            "date": "20171015 11:01"
+        }
+    ],
+    "user": [
+        {
+            "chat_id": 1,
+            "start_date": "20171015 11:01",
+            "subscription_list": [
+                {
+                    "title": "히비키",
+                    "ep": "1"
+                },
+                {
+                    "title": "원펀맨",
+                    "ep": "1"
+                }
+            ]
+        },
+        {
+            "chat_id": 2,
+            "start_date": "20171015 11:01",
+            "subscription_list": [
+                {
+                    "title": "원펀맨",
+                    "ep": "1"
+                }
+            ]
+        }
+    ]
+}
